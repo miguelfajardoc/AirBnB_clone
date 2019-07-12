@@ -2,6 +2,21 @@ header
 {
     background-color: white;
     height:70px;
-    border-bottom: 1px #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
     width:100%;
+}
+.flex-container
+{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+.logo
+{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+    background-size: auto;
+    margin-left: 20px;
 }
