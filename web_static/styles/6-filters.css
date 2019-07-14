@@ -8,16 +8,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
 }
 .popover
 {
+    position: absolute;
     display: none;
     background-color: #FAFAFA;
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0;
+    left: 0;
 }
 .amenities:hover .popover
 {
@@ -31,12 +35,13 @@
 
 .amenities
 {
+    position: relative;
     height: 100%;
-    width: 25%;
-
+    width: 34%;
 }
 .locations
 {
+    position: relative;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
