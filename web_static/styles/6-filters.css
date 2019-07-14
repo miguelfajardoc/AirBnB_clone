@@ -21,17 +21,20 @@
     border-radius: 4px;
     list-style-type: none;
     margin: 0 auto;
-    padding: 0;
+    padding: 3% 0px;
     left: 0;
+    z-index: -1;
 }
 .amenities:hover .popover
 {
     display: block;
+    z-index:1;
 }
 
 .locations:hover .popover
 {
     display: block;
+    z-index: 1;
 }
 
 .amenities
@@ -39,7 +42,8 @@
     padding-left: 4%;
     position: relative;
     height: 100%;
-    width: 34%;
+    width: 38%;
+    border-left: 1px solid #DDDDDD;
 }
 .locations
 {
@@ -47,12 +51,21 @@
     position: relative;
     height: 100%;
     width: 34%;
-    border-right: 1px solid #DDDDDD;
 }
-.locations h2
+.popover ul
 {
-    margin-top: 5px;
+    padding-left: 7%;
+}
+.popover h2
+{
+    margin-top: 10px;
     margin-bottom: 2px;
+}
+.popover li
+{
+    margin-bottom: 3px;
+    list-style-type: none;
+    padding-left: 11%;
 }
 button
 {
@@ -72,13 +85,13 @@ button:hover
 .locations h3,
 .amenities h3
 {
-    margin: 8px 35px 0px;
+    margin: 10px 0px 4px;
     font-weight: 600;
 }
 .locations h4,
 .amenities h4
 {
-    margin: 1.5px 35px;
+    margin: 0px;
     font-weight: 400;
     font-size: 14px;
 }
