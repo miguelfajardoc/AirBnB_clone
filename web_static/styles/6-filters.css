@@ -6,12 +6,13 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
 }
 .popover
 {
+    top: 70px;
     position: absolute;
     display: none;
     background-color: #FAFAFA;
@@ -35,15 +36,17 @@
 
 .amenities
 {
+    padding-left: 4%;
     position: relative;
     height: 100%;
     width: 34%;
 }
 .locations
 {
+    padding-left: 4%;
     position: relative;
     height: 100%;
-    width: 25%;
+    width: 34%;
     border-right: 1px solid #DDDDDD;
 }
 .locations h2
